@@ -1,0 +1,221 @@
+
+h2,h3, h4, h5{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+span{
+    font-size: 1.12rem;
+    font-weight: 600;
+}
+
+
+img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 600px;
+    height: 600px;
+
+}
+iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.centrar{
+    text-align: center;
+}
+   .linea{
+        align-items: center;
+        height: 40px;
+        width: 100%;
+        background-color: rgb(229, 171, 205);
+        border: none;
+        padding-top: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
+
+@media screen and (max-width:760px){
+    p{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    span{
+        font-size: 1.05rem;
+        font-weight: 600;
+    }
+    .linea{
+        height: 20px;
+    }
+       img{
+        width: 300px;
+        height: 300px;
+        
+    }
+    iframe{
+        max-width:300px;
+        max-height:300px;
+    }
+    .imgfvsb{
+        width: 300px;
+        height: 300px;
+    }
+
+ 
+    }
+
+    .span-center{
+        text-align: center;
+    }
+
+    .centrar-imagen{
+        text-align: center;
+       } 
+        
+    
+    
+@media screen and (max-width: 300px){
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    iframe{
+        max-width:250px;
+        max-height:250px;
+    }
+    .imgfvsb{
+        width: 200px;
+        height: 200px;
+    }
+    
+
+}
+   
+.imgfvsb{
+    width:600px;
+    height: 300px;
+}
+
+.logophp{
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+}
+
+.button-index{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(138, 83, 189);
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.button-index:hover{
+    background-color: rgb(229, 171, 205);
+}
+
+.flexArrows{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.derecha{
+    align-items: flex-start;
+    width: 60px;
+    height: 60px;
+}
+
+.izquierda{
+    align-items: flex-end;
+    width: 60px;
+    height: 60px;
+}
+
+.izquierda:hover{
+    width: 70px;
+    height: 70px;
+}
+
+.derecha:hover{
+    width: 70px;
+    height: 70px;
+}
+
+@media screen and( max-width: 767px ) {
+    .izquierda{
+        width: 10px;
+        height: 20px;
+    }
+    .derecha{
+        width: 10px;
+        height: 20px;
+    }
+}
+.red{
+    color: red;
+}
+
+.verde{
+    color: green;
+}
+.blue{
+    color:blue;
+    cursor: pointer;
+}
+
+.centrarAll{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.centrarAll h4:hover{
+color: rgb(50, 54, 192);
+}
+
+.centrarAlllogo{
+    text-align: center;
+}
+
+.centrarAll1 h4:hover{
+    color: rgb(212, 81, 28);
+    }
+
+    .centrarAll2 h4:hover{
+    color: rgb(28, 126, 212);
+    }
+
+    .centrarAll3 h4:hover{
+        color: rgb(163, 28, 212);
+        }
+
+        .centrarAll4 h4:hover{
+            color: rgb(217, 54, 86);
+            }
+            .centrarAll5 h4:hover{
+                color: rgb(85, 80, 81);
+                }
+
+                .centrarAll6 h4:hover{
+                    color: rgb(255, 23, 58);
+                    }
+                    .centrarAll7 h4:hover{
+                        color: rgb(172, 149, 0);
+                        }
+                        .centrarAll8 h4:hover{
+                            color: rgb(0, 138, 172);
+                            }

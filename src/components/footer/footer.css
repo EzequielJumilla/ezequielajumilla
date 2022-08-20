@@ -1,0 +1,73 @@
+/*Estilo del header*/
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    min-width: 98%;
+    background-color: rgb(146, 146, 236);
+    border: none;
+   margin-top: 10px;
+  
+   
+}
+h1{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+/*Menú por un lado e iconos por otro
+
+.tituloHeader{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}*/
+
+.iconosHeader{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    
+
+}
+/*Hover
+ a los iconos*/
+.LogoGithub:hover{
+    fill: #fff;
+}
+
+.logoCafecito:hover{
+    fill: #fff;
+}
+
+.logolikendin:hover{
+    fill: #fff;
+}
+.LogoGithub{
+    margin-right: 10px;
+}
+@media screen and (max-width:480px){
+.logoCafecito{
+    width:30px;
+}
+.logolikendin{
+    width: 30px;
+
+}
+.LogoGithub{
+    width: 30px;
+    margin-right: 10px;
+}
+h1{
+    margin-left: 5px;
+}
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
