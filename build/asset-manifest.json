@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2703c0b7.css",
+    "main.js": "/static/js/main.87bd0395.js",
+    "static/media/netflix.png": "/static/media/netflix.d5f536b6f1c4b9b97258.png",
+    "static/media/festival.png": "/static/media/festival.f31d5861de4ace7aff89.png",
+    "static/media/cafe.png": "/static/media/cafe.8aefb084970a2e072a23.png",
+    "index.html": "/index.html",
+    "main.2703c0b7.css.map": "/static/css/main.2703c0b7.css.map",
+    "main.87bd0395.js.map": "/static/js/main.87bd0395.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2703c0b7.css",
+    "static/js/main.87bd0395.js"
+  ]
+}
